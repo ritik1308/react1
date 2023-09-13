@@ -1,0 +1,55 @@
+
+h3{
+  text-align: center;
+}
+.mainHeading{
+  text-align: center;
+  text-shadow: 0px 3px 3px aqua;
+  
+}
+.buttonEdit{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  
+}
+button{
+  font-size: 16pt;
+  background-color: aquamarine;
+  height: 60px;
+  border-radius: 40px;
+}
+button:hover{
+  background-color: greenyellow;
+}
+.Left{
+
+  border:2px solid black;
+  width:40vw;
+  height: 40vh;
+  text-align: center;
+  background-color: aqua;
+  border-radius: 20px;
+  position: fixed;
+  left:600px;
+  top:300px;
+  
+}
+.Right{
+
+    border:2px solid black;
+    width:40vw;
+    height: 40vh;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 20px;
+    position: relative;
+    top:110px;
+    left:60px;
+    
+  }
+  body{
+    background-color: yellow;
+  }
+
+
